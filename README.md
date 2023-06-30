@@ -34,7 +34,7 @@ docker rm $(docker ps -a -q)
 -->now you can see all the  containers are deleted.
 docker ps -a
 
--->how to delet image
+-->how to delete image
 docker rmi imageid
 
 e.g docker rmi 91b53
