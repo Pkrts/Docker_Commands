@@ -66,6 +66,7 @@ you will see ngnix is up and running.
 
 --->search in chrome docker cheat sheet
 you will all the commands that we are using here
+https://dockerlabs.collabnix.com/docker/cheatsheet/
 
 --->
 if you running the same image on same port you will get and error.- like port is already running.
