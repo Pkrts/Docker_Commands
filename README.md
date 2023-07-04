@@ -74,7 +74,25 @@ if you running the same image on same port you will get and error.- like port is
 docker logs containerid
 e.g docker logs fd123
 
---->
+--->how to enter into any container
+docker exec -it containerid bash
+
+(-it means intercative terminal) bash coz we want to use bash as the terminal you can take as per use.
+
+now you will enter into the root directiry if the conatiner and now you can naviagte to the directories of the container using cd command
+
+ls 
+it will show all the files and directores inside the root directory of container
+cat readme.html 
+it will all the content of the readme..html file
+
+---> if you want to exit the above  terminal that you entered
+exit
+
+-->
+
+
+
 
 
 
